@@ -71,7 +71,7 @@ btnRoll.addEventListener('click', function () {
   const randomNumber = Math.trunc(Math.random() * 6) + 1;
 
   // Display Dice Image
-  diceImage.src = `/img/dice-${randomNumber}.png`;
+  diceImage.src = `./img/dice-${randomNumber}.png`;
   diceImage.classList.remove('hidden');
   if (randomNumber > 1) {
     if (currentPlayer === 1) {
