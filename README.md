@@ -5,4 +5,5 @@ The dice game is made using vanilla JavaScript
     Live Demo
  </a>
  
+ 
  ![perview_image](/img/perview.png)
